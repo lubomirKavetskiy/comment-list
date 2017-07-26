@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.comments-form {
+  padding: 0 40px;
+  border-bottom: 2px solid #0B7136;
+}
+
+.comments-form label {
+  padding: 40px 5px 5px 2px;
+  display: block;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.comments-form input,
+.comments-form textarea {
+  padding: 5px;
+  display: block;
+  width: 100%;
+
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #fff;
+  border: 2px solid #FFF;
+  background: transparent;
+}
+
+.comments-form textarea {
+  min-height: 200px;
+}
+
+.comments-form input:focus,
+.comments-form textarea:focus,
+.comments-form label:active + input,
+.comments-form label:active + textarea
+{
+  border-color: #0B7136;
+  outline: none;
+}
+
+.comments-form input[type='submit'],
+ button {
+  margin: 40px auto;
+  padding: 15px 30px;
+  display: block;
+  width: auto;
+
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #FFF;
+  border: 2px solid #0B7136;
+  background: transparent;
+}
+
+.comments-form input[type='submit']:hover,
+.comments-form input[type='submit']:focus,
+button:hover,
+button:focus {
+  background: #0B7136;
+}
